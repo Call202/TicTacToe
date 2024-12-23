@@ -4,6 +4,12 @@ const ctx = canvas.getContext("2d");
 const WIDTH = ctx.canvas.width;
 const HEIGHT = ctx.canvas.height;
 
+var gameState = [
+    [0, 0, 0],
+    [0, 0, 0],
+    [0, 0, 0]
+];
+
 function drawGrid() {
     const lineWidth = 10;
     for (let i = 0; i < 2; i++) {
